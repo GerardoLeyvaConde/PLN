@@ -1,0 +1,129 @@
+{"intents":[
+    {"tag": "saludos",
+        "patterns":["Hola", "hola", "que onda", "como estas", "Como Estas", "alguien ahi?", "buenos dias", "buenas"],
+        "responses": ["Hola! Soy TutorBot en qué puedo ayudarte?"],
+        "context": [""]
+    },
+    {"tag": "despedida",
+        "patterns":["Adios", "adios", "nos vemos", "buena platica, bye", "bye", "hasta luego", "bai", "buenas noches"],
+        "responses": ["nos vemos!", "Que te vaya bien!", "Hasta la vista"],
+        "context": [""]
+    },
+    {"tag": "noanswer",
+        "patterns":[],
+        "responses": ["Lo siento, pero no tenemos una respuesta para eso \\:\\( \n Trabajaremos para mejorar nuestra información"],
+        "context": [""]
+    },
+    {"tag": "servicio medico",
+        "patterns":["ocupo lentes", "donde me puedo hacer un examen de la vista", "no puedo ver bien", "no veo", "ya no leo bien", "ocupo terapia", "quiero ayuda psicologica", "donde puedo ir al psicologo", "quiero terapia", "ocupo un psicologo", "donde puedo ir al sicologo", "ocupo un sicologo", "ocupo una consulta medica", "quiero una consulta", "quiero ir al doctor", "ocupo un doctor", "me siento enfermo", "donde puedo ir al doctor", "consulta medica", "asesoria nutricional" , "ets", "enfermedades de transmision sexual", "vih"],
+        "responses": ["La universidad tiene El Programa de Salud Estudiantil que ofrece servicios medicos gratiutos. Ofrece detección de problemas visuales, orientación psicológica, pruebas de Papanicolaou, asesoría y exámenes de VIH, consulta médica general, dental, asesoría nutricional y consejos sobre enfermedades de transmisión sexual \\(ETS\\)\\. \nTodo esto lo puedes encontrar en el portal de alumnos en la sección de \\'Citas para servicios de salud\\'  o puedes enviar un correo a Aracely Ornelas Arana, la auxiliar operativo del programa al correo\\: aracely\\.ornelas\\@unison\\.mx"],
+        "context": [""]
+    },
+    {"tag": "dentista",
+        "patterns": ["quiero una limpieza", "quiero una limpieza dental", "quiero una revision dental", "quiero una extraccion dental", "necesito una limpieza", "ocupo una limpieza", "necesito una limpieza dental", "ocupo una limpienza dental","quiero una revision", "quiero una extraccion", "ocupo una revision", "ocupo una extraccion", "ocupo una revision dental", "ocupo una extraccion dental"],
+        "responses": ["La Universidad de Sonora ofrece a sus alumnos un servicio dental gratuito\\. Solo tienes que ir al portal de alumnos y en la sección de \\'Citas para servicios de salud\\' selecciona \\'Consulata dental\\' y listo\\."],
+        "context": [""]
+
+    },
+    {"tag": "psocologo",
+        "patterns": ["necesito ayuda", "ya no quiero vivir", "no vale la pena la vida", "me eh intentado matar"],
+        "responses": ["Si tienes problemas, antes de que tomes alguna decisión, intenta pedir ayuda. La Universidad de Sonora ofrece a sus alumnos un servicio psicológico gratuito\\. Solo tienes que ir al portal de alumnos y en la sección de \\'Citas para servicios de salud\\' selecciona \\'Orientación psicológica\\' y listo\\. También puedes pedirle ayuda a tu tutor, puedes obtener su información aquí mismo\\. No estas solo"],
+        "context": [""]
+    },
+    {"tag": "Juan Pablo Soto",
+        "patterns": ["juan páblo", "jp", "donde encuentro a juan pablo", "quienes juan pablo", "quien es jp", "donde encuentro a jp", "correo de juan pablo", "como contacto a juan pablo", "correo de jp", "como contacto a jp", "donde esta el cubiculo de juan pablo soto", "donde esta el cubiculo de jp"],
+        "responses": ["El Dr\\. Juan Pablo Soto Barrera es actualmente el jefe del Departamento de Matemáticas\\. Lo puedes encontrar en la coordinación de matemáticas o contactarlo al correo\\: juanpablo\\.soto\\@unison\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Lupita",
+        "patterns": ["quien es luputa", "quien es marí­a de guadalupe cota ortiz", "lupita", "maria cota", "donde encuentro a lupita", "donde encuentro a maria cota", "correo de lupita", "como contacto a lupita", "correo de maria cota", "como contacto a maria cota", "base de datos", "quien da base de datos", "lenguajes de programacion", "quien da lenguajes de programacion", "donde esta el cubiculo de lupita", "donde esta el cubiculo de maria cota"],
+        "responses": ["La Dra\\. Marí­a de Guadalupe Cota Ortiz es profesora a tiempo completo e imparte unas materias como base de datos y lenguajes de programación\\. La puedes encontrar en la planta baja del edificio 3K-2 o contactarla al correo\\: lcota\\@gauss\\.mat\\.uson\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Gabriel Alberto García Mireles",
+        "patterns": ["gabriel alberto garcía mireles", "mireles", "quien es gabriel alberto garcía mireles", "quien es mireles", "donde encuentro a mireles", "correo mireles", "contacto mireles", "quien da ingerieria de sofftware", "quien da ingerieria de sofftware 2", "quien da adoo", "quien da analisis y diseño orientado a objetos", "donde esta el cubiculo de gabriel mireles"],
+        "responses": ["El Dr\\. Gabriel Alberto García Mireles es profesor a tiempo completo e imparte las materias de Ingeniería en Software, Ingeniería en Software II y Análisis y Diseño Orientado a Objetos\\(ADOO\\)\\. Lo puedes encontrar en el edificio 3K-4 subiendo la escalera a mano izquierda o contactarlo al correo\\: mireles\\@mat\\.uson\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Olivia Carolina Gutú Ocampos",
+        "patterns": ["olivia carolina gutu ocampo", "gutu", "olivia gutu", "quien es olivia carolina gutu ocampo", "quien es gutu", "donde encuentro a gutu", "correo gutu", "contacto gutu", "quien da teoria de la computacion", "quien da pln", "quien da procesamiento del lenguaje natural", "donde esta a olivia gutu", "donde esta el cubiculo de olivia gutu"],
+        "responses": ["La Dra\\. Olivia Carolina Gutú Ocampos es profesora a tiempo completo e imparte unas materias como Teoría de la computación y Procesamiento del Lenguaje Natural\\(PLN\\)\\. La puedes encontrar en el edificio 3K-4 subiendo la escalera a mano izquierda o contactarla al correo\\: gutuolivia\\@gamil\\.com"],
+        "context": [""]
+    },
+    {"tag": "Roberto Núñez González",
+        "patterns": ["roberto nuñes gonzalez", "roberto", "roberto nuñez", "quien es roberto nuñes gonzalez", "donde encuentro a roberto nuñes", "correo roberto nuñes", "contacto roberto nuñes", "quien da analisis de algoritmos", "quien da graficacion por computadora", "donde esta a roberto nuñez", "donde esta el cubiculo de roberto nuñez"],
+        "responses": ["El Dr\\. Roberto Núñez González es profesor a tiempo completo e imparte unas materias como Análisis de Algoritmos I y Graficación por Computadora\\. Lo puedes encontrar en el edificio 3K-4 subiendo las escaleras a mano derecha o contactarlo al correo\\: ronunez\\@mat\\.uson\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Edelmira Rodríguez Alcántar",
+        "patterns": ["edelmira rodriguez alcantar", "edelmira", "edelmira rodriguez", "quien es edelmira rodriguez", "donde encuentro a edelmira rodriguez", "correo edelmira rodriguez", "contacto edelmira rodriguez", "quien da procesos paralelos", "quien da matematicas discretas", "donde esta edelmira rodriguez", "donde esta el cubiculo de edelmira rodriguez"],
+        "responses": ["La Dra\\. Edelmira Rodríguez Alcántar es prfesora a tiempo completo e imparte unas materias Procesos paralelos y a veces Matemáticas discretas\\. La puedes encontrar en el edificio 3K-4 subiendo la escalera a mano izquierda o contactarla al correo\\: edelmira\\@mat\\.uson\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Julio Waissman Villanova",
+        "patterns": ["julio waissman villanova", "waissman", "julio waissman", "quien es julio waissman", "donde encuentro a julio waissman", "correo julio waissman", "contacto julio waissman", "quien es el coordinador de la mestria en ciencia de datos", "donde esta julio waissman", "donde esta el cubiculo de julio waissman"],
+        "responses": ["El Dr\\. Julio Waissman Villanova es actualmente el coordinador de la maestría en Ciencia de Datos\\. Lo puedes encontrar en el \\'LICE\\' que se encuentra en la planta baja del edificio 3K-1 o contactarlo al correo\\: julio\\.waissman\\@unison\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Donald José Rodríguez Úbeda",
+        "patterns": ["donald jose rodriguez ubeda", "donald", "donald rodriguez", "quien es donald rodriguez", "donde encuentro a donald rodriguez", "correo donald rodriguez", "contacto donald rodriguez", "quien da sistemas operativos", "quien da redes de computadoras", "donde esta donald rodriguez", "donde esta el cubiculo de donald rodriguez"],
+        "responses": ["El Dr\\. Donald José Rodríguez Úbeda es profesor a tiempo completo e imparte unas materias como Redes de Computadoras y Sistemas Operativos\\. Lo puedes encontrar en la planta baja del edificio 3K-4 o contactarlo al correo\\: donald\\@mat\\.uson\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Sonia Guadalupe Sosa León",
+        "patterns": ["sonia guadalupe sosa leon", "sonia", "sonia sosa", "quien es sonia sosa", "donde encuentro a sonia sosa", "correo sonia sosa", "contacto sonia sosa", "quien es el coordinador de ciencias de la computacion", "donde esta sonia sosa", "donde esta el cubiculo de sonia sosa"],
+        "responses": ["La Dra\\. Sonia Guadalupe Sosa León es actualmente coordinadora de la licenciatura en Ciencias de la Computación\\. La puedes encontrar en el edificio 3K-4 subiendo la escalera a mano derecha o contactarla al correo\\: sonia\\.sosa\\@unison\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Héctor Antonio Villa Martínez",
+        "patterns": ["hector antonio villa martinez", "villa", "hector villa", "quien es hector villa", "donde encuentro a hector villa", "correo hector villa", "contacto hector villa", "quien da programacion avanzada", "quien da arquitectura de computadoras", "quien da laboratorio de visio y procesamiento de imagenes", "donde esta hector villa", "donde esta el cubiculo de hector villa"],
+        "responses": ["El Dr\\. Héctor Antonio Villa Martínez es profesor a tiempo completo e imparte unas materias como Arquitectura de Computadoras, Programación avanzada y Laboratorio de visión y Procesamiento de Imágenes y Sistemas Operativos\\. Lo puedes encontrar en el 3K-4 subiendo las escaleras a mano derecha o contactarlo al correo\\: hvilla\\@mat\\.uson\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Servicio Social",
+        "patterns": ["servicio social", "donde hago el servicio social", "que ocupo para el servicio social", "a quien le pregunto sobre el servicio social", "cuantos creditos ocupo para el servicio social", "cuanto dura el servicio social", "donde encuentro el servicio social", "que es el servicio social"],
+        "responses": ["El servicio social es una actividad académica, de carácter temporal y obligatorio, que realizan los estudiantes como parte de su formación profesional\\. El servicio social tiene una duración de 480 horas distribuido en un período no menor a 6 meses ni mayor a 2 años y para poder realizarlo se necesita haber cubierto el 70\\% de los creditos academicos del plan de estudio\\. \nPara hacer el servicio puedes preguntarle a tu tutor, a tu coordinador o revisar en el portal de alumnos en la sección de \\'servicio social\\'\\. \nPara más información puedes contactar a Isabel Beltrán Zazueta la responsable del servicio social al correo\\: isabel\\.beltran\\@unison\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Practicas Profesionales",
+        "patterns": ["practicas profesionales", "donde hago las practicas profesionales", "que ocupo para las practicas profesionales", "a quien le puedo pedir las practicas profecionales", "que necesito para hacer las practicas profesionales", "cuanto duran las practicas profesionales"],
+        "responses": ["Las prácticas profesionales son un conjunto de actividades y quehaceres propios de la formación profesional del estudiante, que le permite relacionarse con el medio laboral donde se desempeñará y le da la oportunidad de aplicar los conocimientos y habilidades adquiridas a través de su formación académica en el programa educativo\\. Te recomendamos realizarlas despues de haber finalizado el servicio social, la duración de las practicas es de 480 horas en un periodo no menor a 6 meses\\. Puedes preguntar a tus maestro de carrera sobre proyectos para poder validarlas como prácticas profesionales o puedes buscar alguna empresa externa a la universidad\\. \nPara más información preguntar al Dr\\. Julio Waissman Villanova que es el encargado de las practicas profesionales en LCC al correo\\: julio\\.waissman\\@unison\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Culturest",
+        "patterns": ["cultures", "culturest", "donde hago el culturest", "donde hago el cultures", "cuantos puntos cultures necesito", "cuantos puntos culturest necesito", "puedo hacer cultures", "puedo hacer culturest"],
+        "responses": ["El culturest son puntos obligatorios que todos lo alumnos debemos de cumplir\\. En total ocupamos acreditar 4 puntos y podemos acreditarlos mediante platicas, conferencias, conciertos, cursos, talleres, deporters o cursando algún idioma \\(exceptuando ingles\\)\\. \nPara buscar eventos para validar tus puntos culturest ve al portal de alumnos en \\'Mis Materias\\' en la sección de \\'Culturest y Deportes\\'\\."],
+        "context": [""]
+    },
+    {"tag": "Becas",
+        "patterns": ["donde puedo conseguir una beca", "no puedo pagar la universidad", "no puedo pagar la uni", "necesito ayuda economica", "soy pobre"],
+        "responses": ["En la Universidad de Sonora existen acciones de apoyo que premian el rendimiento académico o que responden a situaciones específicas del estudiante\\: becas colegiatura, becas estudiantiles, becas ayudantía, ayudas especiales y otros apoyos nacionales para la educación superior\\. \nPara más información contactata a Consuelo Santibañez Arrojo responsable de becas y bolsa de trabajo al correo\\: consuelo\\.santibanez\\@unison\\.mx"],
+        "context": [""]
+    },
+    {"tag": "Intercambios",
+        "patterns": ["intercambio", "donde puedo pedir informacion para intercambios", "intercambios", "a quien le pregunto sobre los intercambios", "como me voy de intercambio"],
+        "responses": ["La Universidad de Sonora te da la oportunindad de amplíar tus horizontes culturales y académicos a través del Programa de Movilidad e Intercambio Estudiantil, el cual te permite cursar parte de tus estudios en reconocidas instituciones de México y del extranjero\\.\nPara más información envia un correo a movilidad\\@unison\\.mx o revisa la pagina \\'movilidad\\.unison\\.mx\\'\\."],
+        "context": [""]
+    },
+    {"tag": "Denuncias",
+        "patterns": ["me acosan", "bullying", "acoso", "me bullean", "me hacen bullyin", "como denuncio", "como hago una denuncia", "quiero denunciar"],
+        "responses": ["Si sufres algún tipo de acoso o discriminación, no te quedes callado\\. Hablalo con tu tutor, coordinador o algún maestro\\. \nPara más información envia correo a vicerrectoria\\.urc\\@unison\\.mx o a nora\\.armenta\\@unison\\.mx"],
+        "context": [""]
+    },
+    {"tag": "ARTÍCULO 60",
+        "patterns": ["estoy reprobando", "un maigo reprobo", "reprobe la mitad de las materias", "articulo 60", "repruebo mucho", "un amigo reprueba mucho"],
+        "responses": ["Ten cuidado, ya que el artículo 60 dice\\: Baja automática es la separación definitiva de un  alumno respecto de un programa por cualquiera de las siguientes causas\\: \nI\\. Por haber reprobado más del 50% de los créditos en que haya estado inscrito en dos reinscripciones consecutivas, en el lapso comprendido entre el segundo y quinto periodos escolares\\.\nII\\. Por no acreditar la evaluación extraordinaria especial prevista en el artículo 72 del presente reglamento\\. \n No te asuste, si ya estas cursando tu 4to semestre para arriba esto ya no apliica \\:\\)"],
+        "context": [""]
+    },
+    {"tag": "ARTÍCULO 72",
+        "patterns": ["que pasa si repruebo muchas veces una materia", "que dice el articulo 72", "articulo 72", "repruebo mucho una materia", "entrar a especial", "que es un especial"],
+        "responses": ["El aritículo 72 dicta lo siguiente\\: la evaluación extraordinaria especial es la que se aplica al alumno que no acredita una asignatura en ninguna de las tres oportunidades de inscripción a que tiene derecho, conforme al artículo 37\\. El alumno tiene derecho a esta evaluación solo una vez por asignatura\\."],
+        "context": [""]
+    },
+    {"tag": "ARTÍCULO 37",
+        "patterns": ["cuantas veces me puedo inscribir en una materia", "que dice el articulo 37", "articulo 37", "cuantas veces puedo llevar una materia"],
+        "responses": ["El aritículo 37 dicta lo siguiente\\: El alumno tiene derecho a inscribirse en cada asignatura hasta en tres ocasiones\\."],
+        "context": [""]
+    }
+    ]
+}
